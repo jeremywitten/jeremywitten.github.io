@@ -1,0 +1,210 @@
+/*!
+Baby Jey CSS
+*/
+
+body, html {
+    cursor: url(http://cur.cursors-4u.net/others/oth-2/oth172.cur), pointer;
+    padding: 10px;
+}
+
+
+body {
+  background: url("jeremybackground.jpg");
+  background-size: 1000px, contain, absolute;
+  background-repeat: repeat;
+  max-width: 900px;
+  margin: auto;
+  padding: auto;
+}
+
+.parent {
+  position: relative;
+  max-width: 950px;
+  margin: auto;
+  padding: auto;
+  top: 0;
+  left: 0;
+
+}
+
+img {
+  width: 100%
+}
+
+
+
+.about{
+	font-style: italic;
+	text-decoration: underline;
+
+}
+
+
+.text{
+    font-family: tahoma; times;
+    text-shadow:1px 1px 1px rgba(229,255,59,1);
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#FC26D2;
+    border: 5px
+    groove #29FF45;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:13px;
+    text-align:center;
+    font-family:tahoma, verdana, arial, sans-serif;
+    line-height:2;
+}
+
+.videos {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  border: 1px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+}
+.back {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.footer {
+    position: absolute;
+    height: 10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.homepage {
+  position: absolute;
+  width: 950px;
+  top: 0;
+  left: 0;
+
+}
+.musicvideos {
+  position: absolute;
+  width: 280px;
+  top: 210px;
+  left: 145px;
+}
+.liveconcerts {
+  position: absolute;
+  width: 280px;
+  top: 295px;
+  left: 145px;
+}
+
+.ourstory {
+  position: absolute;
+  width: 235px;
+  top: 365px;
+  left: 150px;
+}
+
+.wickedgames {
+  position: absolute;
+  width: 126px;
+  top: 210px;
+  left: 510px;
+}
+.contacts {
+  position: absolute;
+  width: 200px;
+  top: 480px;
+  left: 370px;
+}
+.socialmedia {
+  position: absolute;
+  width: 200px;
+  top: 516px;
+  left: 370px;
+}
+
+.socialmediatable {
+  border: 1px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+  position: relative;
+  width: 200px;
+}
+
+.navtable  {
+  margin: auto;
+  padding: auto;
+  border: 2px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+  font-weight:bold;
+  letter-spacing:1pt;
+  word-spacing:2pt;
+  font-size:13px;
+  border-spacing: 20px;
+  text-align: center;
+  font-family:tahoma, verdana, arial, sans-serif;
+  text-transform:uppercase;
+
+}
+
+.about-content {
+  padding: auto;
+  margin: auto;
+  border: 1px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+  text-shadow:1px 1px 1px rgba(8,255,32,1);
+  font-weight:normal;
+  font-style:oblique;
+  color:#00BBFF;
+  letter-spacing:1.7pt;
+  word-spacing:-1pt;
+  font-size:12px;
+  text-align:center;
+  font-family:tahoma, verdana, arial, sans-serif;
+  line-height:2;
+	text-align: center;
+}
+
+.about-text {
+  padding: auto;
+  border: 1px solid #FC26D2;
+  margin: 10px;
+  background-color:#F9BFFF;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+  text-shadow:1px 1px 1px rgba(8,255,32,1);
+}
+
+#hotpic {
+width: 35%;
+height: auto;
+margin-right: auto;
+margin-left: auto;
+display: block;
+}
+
+
+.contact-content {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+
+.games-content iframe {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+  border: 1px solid #FC26D2;
+  box-shadow: 4px 4px 14px #000;
+  text-shadow:1px 1px 1px rgba(8,255,32,1);
+
+}
+
+.site-content{
+text-align: center;
