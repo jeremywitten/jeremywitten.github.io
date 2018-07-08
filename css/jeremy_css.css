@@ -4,33 +4,34 @@ Baby Jey CSS
 
 body, html {
     cursor: url(http://cur.cursors-4u.net/others/oth-2/oth172.cur), pointer;
+    padding: 10px;
 }
 
 
 body {
-	font-family: Tahoma;
-	background-color: #561E76;
-	color: #FFADE0;
-	margin-left: 10%;
-	margin-right: 10%;
+  background: url("jeremybackground.jpg");
+  background-size: 1000px, contain, absolute;
+  background-repeat: repeat;
+  max-width: 900px;
+  margin: auto;
+  padding: auto;
+}
+
+.parent {
+  position: relative;
+  max-width: 950px;
+  margin: auto;
+  padding: auto;
+  top: 0;
+  left: 0;
 
 }
 
-
-a {
-	color: #FFADE0;
+img {
+  width: 100%
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-li{
-	display: inline;
-	margin-right: 20px;
-}
 
 .about{
 	font-style: italic;
@@ -38,112 +39,156 @@ li{
 
 }
 
-table {
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 50px;
 
-}
-
-table a {
-	font-weight: bold;
-	font-style: italic;
-	text-decoration: underline;
-	color: #FFADE0;
-}
-
-
-.tablecell1 {
-    width:200px;
-    height:100px;
-    /*background-image: url('../images/purplecircle.png');*/
-    background-repeat:no-repeat;background-size:400px 100px;
-}
-
-.tablecell2 {
-    width:200px;
-    height:100px;
-    /*background-image: url('../images/purplecircle.png');*/
-    background-repeat:no-repeat;background-size:250px 180px;
-}
-
-.tablecell3 {
-    width:200px;
-    height:100px;
-    /*background-image: url('../images/purplecircle.png');*/
-    background-repeat:no-repeat;background-size:250px 180px;
-}
-
-.tablecell4 {
-    width:200px;
-    height:100px;
-    /*background-image: url('../images/purplecircle.png');*/
-    background-repeat:no-repeat;background-size:250px 180px;
-}
-
-.tablecell5 {
-    width:200px;
-    height:100px;
-    /*background-image: url('../images/purplecircle.png');*/
-    background-repeat:no-repeat;background-size:250px 180px;
-}
-
-.tablecell6 {
-    width:200px;
-    height:100px;
-    /*background-image: url('../images/purplecircle.png');*/
-    background-repeat:no-repeat;background-size:250px 180px;
-}
-
-
-.sitemaptable {
-    border: 1px solid white;
-    text-align: left;
-    margin-bottom: 70px;
-}
-
-iframe{
-	display: inline;
-	float: left;
-	margin-top: 50px;
-	margin-bottom: 100px;
-	width: 480px;
-	height: 350px;
-	padding: 15px;
-}
-
-.socialmedia{
-	text-align: center;
-	display: block;
-	width: 90%;
-	margin: 0 auto;
-	margin-top: 60px;
-
+.text{
+    font-family: tahoma; times;
+    text-shadow:1px 1px 1px rgba(229,255,59,1);
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#FC26D2;
+    border: 5px
+    groove #29FF45;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:13px;
+    text-align:center;
+    font-family:tahoma, verdana, arial, sans-serif;
+    line-height:2;
 }
 
 .videos {
-	text-align: center;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  border: 1px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+}
+.back {
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-.concert-content {
-	padding-top: 10%;
-	padding-bottom: 30%;
-	display: block;
-	text-align: center;
+.footer {
+    position: absolute;
+    height: 10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.homepage {
+  position: absolute;
+  width: 950px;
+  top: 0;
+  left: 0;
+
+}
+.musicvideos {
+  position: absolute;
+  width: 280px;
+  top: 210px;
+  left: 145px;
+}
+.liveconcerts {
+  position: absolute;
+  width: 280px;
+  top: 295px;
+  left: 145px;
+}
+
+.ourstory {
+  position: absolute;
+  width: 235px;
+  top: 365px;
+  left: 150px;
+}
+
+.wickedgames {
+  position: absolute;
+  width: 126px;
+  top: 210px;
+  left: 510px;
+}
+.contacts {
+  position: absolute;
+  width: 200px;
+  top: 480px;
+  left: 370px;
+}
+.socialmedia {
+  position: absolute;
+  width: 200px;
+  top: 516px;
+  left: 370px;
+}
+
+.socialmediatable {
+  border: 1px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+  position: relative;
+  width: 200px;
+}
+
+.navtable  {
+  margin: auto;
+  padding: auto;
+  border: 2px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+  font-weight:bold;
+  letter-spacing:1pt;
+  word-spacing:2pt;
+  font-size:13px;
+  border-spacing: 20px;
+  text-align: center;
+  font-family:tahoma, verdana, arial, sans-serif;
+  text-transform:uppercase;
+
 }
 
 .about-content {
-	padding-top: 30px;
-	padding-bottom: 10%;
-	display: block;
+  padding: auto;
+  margin: auto;
+  border: 1px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+  text-shadow:1px 1px 1px rgba(8,255,32,1);
+  font-weight:normal;
+  font-style:oblique;
+  color:#00BBFF;
+  letter-spacing:1.7pt;
+  word-spacing:-1pt;
+  font-size:12px;
+  text-align:center;
+  font-family:tahoma, verdana, arial, sans-serif;
+  line-height:2;
 	text-align: center;
 }
 
-.about-content img{
-	width: 40%;
-	margin-right:auto;
-	margin-left: auto;
+.about-text {
+  padding: auto;
+  border: 1px solid #FC26D2;
+  margin: 10px;
+  background-color:#F9BFFF;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+  text-shadow:1px 1px 1px rgba(8,255,32,1);
 }
+
+#hotpic {
+width: 35%;
+height: auto;
+margin-right: auto;
+margin-left: auto;
+display: block;
+}
+
 
 .contact-content {
 	padding-top: 10%;
@@ -155,17 +200,11 @@ iframe{
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
+  border: 1px solid #FC26D2;
+  box-shadow: 4px 4px 14px #000;
+  text-shadow:1px 1px 1px rgba(8,255,32,1);
 
 }
 
 .site-content{
 text-align: center;
-
-}
-
-
-footer{
-	text-align: center;
-	font-size: 10px;
-	clear: both;
-}
