@@ -1,0 +1,58 @@
+body, html {
+    cursor: url(http://cur.cursors-4u.net/others/oth-2/oth172.cur), pointer;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: url("jeremybackground.jpg");
+  background-size: 1000px, contain, absolute;
+  background-repeat: repeat;
+  margin: auto;
+  padding: auto;
+}
+h1 {
+  font-size: 20px;
+}
+div {
+  width: 100%;
+}
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+img {
+  width: 100%
+}
+
+.mapsize {
+  position: relative;
+  left: 15px;
+}
+
+.socialmediatable {
+  border: 1px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+  position: relative;
+  width: 22%;
+  bottom: 20px;
+}
+
+.text{
+    font-family: tahoma; times;
+    text-shadow:1px 1px 1px rgba(229,255,59,1);
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#FC26D2;
+    border: 5px
+    groove #29FF45;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:20%;
+    text-align:center;
+    font-family:tahoma, verdana, arial, sans-serif;
+    line-height:2;
+}
