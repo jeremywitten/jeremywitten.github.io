@@ -75,9 +75,9 @@ img {
 
 .concerts {
   text-align: center;
-  padding: 20px;
+  padding: auto;
   margin: auto;
-  width: 70%;
+  width: 50%;
   height: auto; 
   border: 1px solid #FC26D2;
   border-radius: 12px;
