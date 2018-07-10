@@ -73,6 +73,17 @@ img {
 }
 
 
+.concerts {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  width: 100%;
+  height: auto; 
+  border: 1px solid #FC26D2;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px #000;
+}
+
 .videos {
   text-align: center;
   padding: 20px;
