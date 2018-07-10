@@ -78,7 +78,9 @@ img {
   padding: auto;
   margin: auto;
   width: 50%;
-  height: auto; 
+  height: auto;
+  position : relative; 
+  right : 20px;
   border: 1px solid #FC26D2;
   border-radius: 12px;
   box-shadow: 4px 4px 14px #000;
