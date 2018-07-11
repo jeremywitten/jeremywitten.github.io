@@ -87,6 +87,31 @@
         <a href="http://www.songkick.com/artists/9232444" class="songkick-widget" data-theme="dark" data-track-button="on" data-detect-style="true" data-font-color="#00BBFF" data-background-color="#F9BFFF">Live Concerts</a>
         <script src="//widget.songkick.com/widget.js"></script>
     </div>
+    
+    <br>
+    <audio id="myAudio">
+      <source src="images/ernesto.mp3" type="audio/mpeg">
+      Your browser does not support the rock n roll.
+    </audio>
+    <div align= "center">
+      <button class="button button2 rotateright" onclick="playAudio()" type="button">Rock On</button>
+    </div>
+    <br>
+    <div  align= "center">
+      <button class="button button2 rotateleft" onclick="pauseAudio()" type="button">Stop Rockin</button>
+
+    <script>
+    var x = document.getElementById("myAudio");
+
+    function playAudio() {
+        x.play();
+    }
+
+    function pauseAudio() {
+        x.pause();
+    }
+    </script>
+    <br> 
 
 
     <!-- Footer -->
