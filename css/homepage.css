@@ -38,6 +38,14 @@ img {
   bottom: 20px;
 }
 
+.map {
+  margin: auto;
+  padding: auto;
+  position: relative;
+  text-align: center;
+  
+}
+
 .text{
     text-shadow:1px 1px 1px rgba(229,255,59,1);
     font-weight:bold;
