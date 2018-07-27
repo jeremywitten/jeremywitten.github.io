@@ -34,8 +34,7 @@ img {
   border-radius: 12px;
   box-shadow: 4px 4px 14px #000;
   position: relative;
-  width: 22%;
-  bottom: 20px;
+  width: 200px;
 }
 
 .map {
@@ -43,7 +42,7 @@ img {
   padding: auto;
   position: relative;
   text-align: center;
-  
+
 }
 
 .text{
@@ -102,4 +101,13 @@ img {
 
 .rotateright {
   text-align: center;
+}
+
+.footer {
+    position: absolute;
+    height: 10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
