@@ -15,7 +15,6 @@ body {
   max-width: 900px;
   margin: auto;
   padding: auto;
-  padding-bottom: 10px; 
 }
 
 .parent {
@@ -31,6 +30,11 @@ body {
 img {
   width: 100%
 }
+
+#body { 
+  padding-bottom: 10px; 
+}
+    
 
 
 
