@@ -30,6 +30,20 @@ body {
   text-align: center;
 }
 
+.headtext {
+  font-family: Verdana;
+  font-size: .9em;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: blink;
+  text-transform: none;
+  font-variant: small-caps;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 1px #fff, 2px 2px 2px #111;
+  color: #fffd56;
+  float: left;
+}
+
 h1 {
   font-size: 50%;
 }
