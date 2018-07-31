@@ -56,7 +56,7 @@ img {
   border-radius: 12px;
   box-shadow: 4px 4px 14px #000;
   position: relative;
-  width: 200px;
+  width: 250px;
 }
 
 .map {
@@ -64,7 +64,42 @@ img {
   padding: auto;
   position: relative;
   text-align: center;
+}
 
+.phone img {
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .map img {
+    display: none;
+  }
+  .phone img {
+    display: block;
+    padding: auto;
+    margin: auto;
+  }
+  .homecontent {
+    align: center;
+  }
+
+  .phonepic {
+    width: 80%;
+    display: block;
+    padding: auto;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 4px 4px 14px #000;
+    background: #F5C2E2;
+    border: 3px solid #FFFE56;
+  }
+  .phoneimg {
+    width: 80%;
+    display: block;
+    padding: auto;
+    margin: auto;
+}
 }
 
 
@@ -94,24 +129,24 @@ img {
 }
 
 .button {
-    background: transparent;
-    font-family:tahoma, verdana, arial, sans-serif;
-    color: #FC26D2;
-    border: 1px solid #FC26D2;
-    border-radius: 50%;
-    text-transform:uppercase;
-    padding: auto;
-    text-decoration: none;
-    font-weight:bold;
-    position: relative;
-    bottom: 30px;
-    font-size:.70em;
-    margin: .1em .1em;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 4px 4px 14px #000;
-    width: 200px;
+  background: transparent;
+  font-family:tahoma, verdana, arial, sans-serif;
+  color: #FC26D2;
+  border: 1px solid #FC26D2;
+  border-radius: 50%;
+  text-transform:uppercase;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight:bold;
+  position: relative;
+  bottom: 30px;
+  font-size:.70em;
+  margin: auto;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 4px 4px 14px #000;
+  width: 200px;
 
 }
 .button2:hover {
