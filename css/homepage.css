@@ -74,11 +74,6 @@ img {
   display: none;
 }
 
-.phone img {
-  display: none;
-}
-
-
 @media only screen and (max-width: 600px) {
   .map img {
     display: none;
