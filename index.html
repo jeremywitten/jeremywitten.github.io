@@ -1,204 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <div id="container">
-    <div id="header">
-    <!-- TikTok Pixel Code -->
-    <script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
 
-  ttq.load('CKNVHMJC77U3K90HB3I0');
-  ttq.page();
-}(window, document, 'ttq');
-</script>
-    <!-- End TikToK Pixel Code -->
-      <!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '1376076889612443'); 
-fbq('track', 'PageView');
-</script>
-<noscript>
- <img height="1" width="1" 
-src="https://www.facebook.com/tr?id=1376076889612443&ev=PageView
-&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
-      <head>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MusicGroup",
-  "@id": "https://www.babyjey.ca/#musicgroup",
-  "name": "Baby Jey",
-  "url": "https://www.babyjey.ca",
-  "description": "Canadian indie rock band from Edmonton, Alberta.",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Babyjey.jpg",
-  "foundingLocation": {
-    "@type": "Place",
-    "name": "Edmonton, Alberta, Canada"
-  },
-  "genre": ["Indie rock"],
-  "sameAs": [
-    "https://www.deezer.com/us/artist/13843661",
-    "https://en.wikipedia.org/wiki/Baby_Jey_(Canadian_band)",
-    "https://es.wikipedia.org/wiki/Baby_Jey_(banda_canadiense)",
-    "https://www.wikidata.org/wiki/Q139575680",
-    "https://www.youtube.com/c/BabyJey",
-    "https://open.spotify.com/artist/5GolQU57CCP3fKTwWgcm8D",
-    "https://www.facebook.com/thebabyjey",
-    "https://www.twitter.com/thebabyjey",
-    "https://www.instagram.com/thebabyjey",
-    "https://musicbrainz.org/artist/656cad9e-1431-4e1f-8365-3ff5d549990f",
-    "https://www.discogs.com/artist/6506499-Baby-Jey",
-    "https://capitalcityrecords.ca/artists/baby-jey",
-    "https://itunes.apple.com/us/artist/baby-jey/1329895982",
-    "https://genius.com/artists/Baby-jey-can",
-    "https://soundcloud.com/thebabyjey",
-    "https://www.bandsintown.com/a/11688777",
-    "https://www.songkick.com/artists/9232444-baby-jey"
-  ]
-}
-</script>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Baby Jey | Official Website</title>
-        <meta name="description" content="Official site including story of the band, tour dates, contact info, and wicked games. " />
-        <!-- <link href="css/jeremy_css.css" rel="stylesheet"> --->
+  <title>Baby Jey | Official Website</title>
+  <meta name="description" content="Official site including story of the band, tour dates, contact info, and wicked games.">
 
-        <!-- Custom styles for this template -->
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "@id": "https://www.babyjey.ca/#musicgroup",
+    "name": "Baby Jey",
+    "url": "https://www.babyjey.ca",
+    "description": "Canadian indie rock band from Edmonton, Alberta.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Babyjey.jpg",
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Edmonton, Alberta, Canada"
+    },
+    "genre": ["Indie rock"],
+    "sameAs": [
+      "https://www.deezer.com/us/artist/13843661",
+      "https://en.wikipedia.org/wiki/Baby_Jey_(Canadian_band)",
+      "https://es.wikipedia.org/wiki/Baby_Jey_(banda_canadiense)",
+      "https://www.wikidata.org/wiki/Q139575680",
+      "https://www.youtube.com/c/BabyJey",
+      "https://open.spotify.com/artist/5GolQU57CCP3fKTwWgcm8D",
+      "https://www.facebook.com/thebabyjey",
+      "https://www.twitter.com/thebabyjey",
+      "https://www.instagram.com/thebabyjey",
+      "https://musicbrainz.org/artist/656cad9e-1431-4e1f-8365-3ff5d549990f",
+      "https://www.discogs.com/artist/6506499-Baby-Jey",
+      "https://capitalcityrecords.ca/artists/baby-jey",
+      "https://itunes.apple.com/us/artist/baby-jey/1329895982",
+      "https://genius.com/artists/Baby-jey-can",
+      "https://soundcloud.com/thebabyjey",
+      "https://www.bandsintown.com/a/11688777",
+      "https://www.songkick.com/artists/9232444-baby-jey"
+    ]
+  }
+  </script>
 
-    	  <link href="css/homepage.css" rel="stylesheet">
-        <marquee behavior="scroll" direction="left" class="headtext">
-          <p> The new Baby Jey Album,"Someday Cowboy"is now out! Follow Baby Jey on social media for show updates and more!  </p>
-        </marquee>
-      </head>
+  <!-- Styles -->
+  <link href="css/homepage.css" rel="stylesheet">
 
-    </div>
-    <div id="body">
-      <body>
-        <div class="map">
-        <!-- Image Map Generated by http://www.image-map.net/ -->
-          <img id="image-Maps-Com-image-maps-2018-07-11-164059" src="images/babyjeymap.png" width="930" height="676" orgWidth="930" orgHeight="676" border="0"  usemap="#image-maps-2018-07-11-164059" />
-          <map name="image-maps-2018-07-11-164059" id="ImageMapsCom-image-maps-2018-07-11-164059">
-            <area  alt="Music Videos" href="professionalvideos.html" shape="rect" coords="36,275,411,350" style="outline:none;" target="_self" />
-            <area  alt="Live Concerts" href="liveconcerts.html" shape="rect" coords="25,381,427,446" style="outline:none;" target="_self" />
-            <area  alt="Our Story" href="storyoftheband.html" shape="rect" coords="64,487,343,552" style="outline:none;" target="_self" />
-            <area  alt="Wicked Games" href="wickedgames.html" shape="rect" coords="525,293,676,434" style="outline:none;" target="_self" />
-            <area  alt="Contacts" href="executivecontacts.html" shape="rect" coords="291,619,630,656" style="outline:none;" target="_self"  />
-          </map>
-        </div>
-        <div class="phone">
-          <img src="images/head.png" width="100%">
-          <div class="homecontent">
-            <a href="professionalvideos.html" target="_self">
-              <img src="images/musicvideos.png" class="phoneimg" alt="Music Videos">
-            </a>
-            <a href="liveconcerts.html" target="_self">
-              <img src="images/liveconcerts.png" class="phoneimg" alt="Live Concerts">
-            </a>
-            <a href="storyoftheband.html" target="_self">
-                <img src="images/ourstory.png" class="phoneimg" alt="Our Story">
-            </a>
-          </div>
-          <br>
-          <div>
-            <a href="executivecontacts.html" target="_self">
-                <img src="images/executive.png" class="phoneimg" alt="Contacts">
-            </a>
-          </div>
-        </div>
+  <!-- TikTok Pixel -->
+  <script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];
+    ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"];
+    ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}; 
+    for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+    ttq.load('CKNVHMJC77U3K90HB3I0');
+    ttq.page();
+  }(window, document, 'ttq');
+  </script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script type="text/javascript" src="jQuery/jquery.rwdImageMaps.min.js"></script>
-        <script>
-         $(document).ready(function(e) {
-           $('img[usemap]').rwdImageMaps();
-         });
-        </script>
-        <br>
-        <br>
-        <audio loop preload="auto" id="myAudio">
-          <source src="music/somedaycowboy.mp3" type="audio/mpeg">
-          <source src="music/somedaycowboy.ogg" type="audio/ogg">
-        Your browser does not support the rock n roll.
-        </audio>
-        <div align= "center">
-          <button class="button button2 rotateright" onclick="playAudio()" type="button">Rock On</button>
-        </div>
-        <br>
-        <div  align= "center">
-        <button class="button button2 rotateleft" onclick="pauseAudio()" type="button">Stop Rockin</button>
+  <!-- Facebook Pixel -->
+  <script>
+  !function(f,b,e,v,n,t,s){
+    if(f.fbq)return;n=f.fbq=function(){n.callMethod ?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s);
+  }(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
-        <script>
-        var x = document.getElementById("myAudio");
+  fbq('init', '1376076889612443'); 
+  fbq('track', 'PageView');
+  </script>
 
-        function playAudio() {
-            x.play();
-        }
+</head>
 
-        function pauseAudio() {
-            x.pause();
-        }
-        </script>
-        </div>
+<body>
 
-        <br>
-          <div>
-          <table align="center" class="socialmediatable">
-            <tr>
-              <td>
-                <a href="https://www.twitter.com/theBabyJey" target="_blank">
-                  <img src="images/twitter.png" alt="twitter">
-                </a>
-              </td>
-              <td>
-                <a href="https://www.babyjey.bandcamp.com" target="_blank">
-                  <img src="images/bandcamp.png" alt="bandcamp">
-                </a>
-              </td>
-              <td>
-                <a href="https://www.instagram.com/theBabyJey" target="_blank">
-                  <img src="images/instagram.png" alt="instagram">
-              </td>
-              <td>
-                <a href="https://www.facebook.com/theBabyJey" target="_blank">
-                  <img src="images/facebook.png" alt="facebook">
-              </td>
-              <td>
-                <a href="https://www.youtube.com/channel/UCPrnJdwrTvOpZY_Jx6ardxQ" target="_blank">
-                  <img src="images/youtube.png" alt="youtube">
-                </a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <br>
-        <div class="phone">
-          <div class="phonepic">
-            <a href="wickedgames.html" target="_self">
-              <img src="images/jeremyhead.png" alt="Wicked Games">
-            </a>
-          </div>
-        </div>
-      </body>
-    </div>
+<div id="container">
 
-
-    <div id="footer">
-      <footer>
-        <hr>
-          <p class="text">Website created in 2003 <br> (c)Platinum Gold Records Unlimited</p>
-      </footer>
-    </div>
+  <!-- Header -->
+  <div id="header">
+    <marquee behavior="scroll" direction="left" class="headtext">
+      <p>The new Baby Jey Album "Someday Cowboy" is now out! Follow Baby Jey on social media for show updates and more!</p>
+    </marquee>
   </div>
 
+  <!-- Main Content -->
+  <div id="body">
+
+    <div class="map">
+      <img src="images/babyjeymap.png" width="930" height="676" usemap="#mainmap" alt="Navigation Map">
+      <map name="mainmap">
+        <area alt="Music Videos" href="professionalvideos.html" coords="36,275,411,350" shape="rect">
+        <area alt="Live Concerts" href="liveconcerts.html" coords="25,381,427,446" shape="rect">
+        <area alt="Our Story" href="storyoftheband.html" coords="64,487,343,552" shape="rect">
+        <area alt="Wicked Games" href="wickedgames.html" coords="525,293,676,434" shape="rect">
+        <area alt="Contacts" href="executivecontacts.html" coords="291,619,630,656" shape="rect">
+      </map>
+    </div>
+
+    <div class="phone">
+      <img src="images/head.png" width="100%" alt="Header Image">
+
+      <div class="homecontent">
+        <a href="professionalvideos.html"><img src="images/musicvideos.png" class="phoneimg" alt="Music Videos"></a>
+        <a href="liveconcerts.html"><img src="images/liveconcerts.png" class="phoneimg" alt="Live Concerts"></a>
+        <a href="storyoftheband.html"><img src="images/ourstory.png" class="phoneimg" alt="Our Story"></a>
+      </div>
+
+      <br>
+
+      <div>
+        <a href="executivecontacts.html"><img src="images/executive.png" class="phoneimg" alt="Contacts"></a>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jQuery/jquery.rwdImageMaps.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('img[usemap]').rwdImageMaps();
+      });
+    </script>
+
+    <!-- Audio -->
+    <audio loop preload="auto" id="myAudio">
+      <source src="music/somedaycowboy.mp3" type="audio/mpeg">
+      <source src="music/somedaycowboy.ogg" type="audio/ogg">
+    </audio>
+
+    <div align="center">
+      <button onclick="playAudio()">Rock On</button>
+    </div>
+
+    <div align="center">
+      <button onclick="pauseAudio()">Stop Rockin</button>
+    </div>
+
+    <script>
+      var x = document.getElementById("myAudio");
+      function playAudio() { x.play(); }
+      function pauseAudio() { x.pause(); }
+    </script>
+
+    <!-- Social -->
+    <div>
+      <table align="center" class="socialmediatable">
+        <tr>
+          <td><a href="https://www.twitter.com/theBabyJey" target="_blank"><img src="images/twitter.png" alt="twitter"></a></td>
+          <td><a href="https://www.babyjey.bandcamp.com" target="_blank"><img src="images/bandcamp.png" alt="bandcamp"></a></td>
+          <td><a href="https://www.instagram.com/theBabyJey" target="_blank"><img src="images/instagram.png" alt="instagram"></a></td>
+          <td><a href="https://www.facebook.com/theBabyJey" target="_blank"><img src="images/facebook.png" alt="facebook"></a></td>
+          <td><a href="https://www.youtube.com/channel/UCPrnJdwrTvOpZY_Jx6ardxQ" target="_blank"><img src="images/youtube.png" alt="youtube"></a></td>
+        </tr>
+      </table>
+    </div>
+
+    <br>
+
+    <div class="phone">
+      <div class="phonepic">
+        <a href="wickedgames.html">
+          <img src="images/jeremyhead.png" alt="Wicked Games">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <footer>
+      <hr>
+      <p class="text">Website created in 2003 <br> (c) Platinum Gold Records Unlimited</p>
+    </footer>
+  </div>
+
+</div>
+
+<!-- Facebook noscript fallback -->
+<noscript>
+  <img height="1" width="1"
+  src="https://www.facebook.com/tr?id=1376076889612443&ev=PageView&noscript=1"/>
+</noscript>
+
+</body>
 </html>
